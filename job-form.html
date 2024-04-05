@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bewerbungsformular</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <section>
+        <div class="headline">
+            <div class="f-head">
+                 <h1>Fachinformatiker / Anwendungsentwicklung (m/w/d)</h1>
+            </div>    
+        </div>
+    </section>
+
+    <div class="container hr-line">
+        <hr>
+    </div>
+</header>
+
+<section class="content">
+    <div class="container">
+        <form action="job-form.html" method="post">
+
+            <div class="contain">
+                <input type="radio" name="gender" value="Herr" id="male">
+                <label for="male">Herr</label>
+                <input type="radio" name="gender" value="Frau" id="female">
+                <label for="female">Frau</label>
+                <input type="radio" name="gender" value="Sonstiges" id="other">
+                <label for="other">Sonstiges</label>
+            </div>
+
+            <input placeholder="Titel" type="text" name="title">
+
+            <div class="v-n">           
+                <input placeholder="Vorname" class="required" type="text" name="firstname" required="required">              
+            </div>
+
+            <div class="n-n">           
+                <input placeholder="Name" class="required" type="text" name="lastname" required="required">
+            </div>
+
+            <div class="g-t">           
+                <input placeholder="Geburtsdatum" type="text" name="birthdate">
+            </div>
+
+            <div class="a-f">           
+                <input placeholder="Adresse (Straße, Hausnummer)" type="text" name="address">
+            </div>
+
+            <div class="plz">           
+                <input placeholder="PLZ" type="text" name="zip">
+            </div>
+
+            <div class="ort">
+                <input placeholder="Ort" type="text" name="city">
+            </div>
+
+            <div class="Land">
+                <input placeholder="Land" type="text" name="country">
+            </div>
+
+            <div class="Email">
+                <input placeholder="E-Mail" class="required" type="email" name="email" required="required">
+            </div>
+
+            <div class="Telefon">
+                <input placeholder="Telefon" class="required" type="text" name="phone" required="required">
+            </div>
+
+            <div class="Eintrittsdatum">
+                <input placeholder="Früheste Eintrittsdatum" type="text" name="startdate">
+            </div>
+
+            <div class="Gehaltswunsch">
+                <input placeholder="Gehaltswunsch" type="text" name="salary">
+            </div>
+
+            <div class="Nachricht">
+                <textarea placeholder="Nachricht" name="message"></textarea>
+            </div>
+
+            <div class="anschreiben">
+                <span class="button fileinput-button">
+                    <span>Anschreiben</span>
+                    <input class="fileupload" accept="application/pdf/word" type="file" id="file-1" name="coverletter">
+                    <input type="hidden" id="file-hidden-1" name="coverletter">
+                </span>
+            </div>
+
+            <div class="Lebenslauf">
+                <span class="button fileinput-button">
+                    <span>Lebenslauf</span>
+                    <input class="fileupload" accept="application/pdf/word" type="file" id="file-2" name="resume">
+                    <input type="hidden" id="file-hidden-2" name="resume">
+                </span>
+            </div>
+
+            <div class="Zertifikate">
+                <span class="button fileinput-button">
+                    <span>Zertifikate</span>
+                    <input class="fileupload" accept="application/pdf/word" type="file" id="file-3" name="certificates">
+                    <input type="hidden" id="file-hidden-3" name="certificates">
+                </span>
+            </div>
+
+            <div class="Zertifikate">
+                <span class="button fileinput-button">
+                    <span>Weitere Unterlagen</span>
+                    <input class="fileupload" accept="application/pdf/word" type="file" id="file-4" name="other-documents">
+                    <input type="hidden" id="file-hidden-4" name="other-documents">
+                </span>
+            </div>
+
+            <div class="datenschutz">
+                <input type="hidden" name="privacy-policy-agreement" value="">
+                <input class="required" required="required" id="agb" type="checkbox" name="privacy-policy-agreement" value="agb">
+                <label for="agb">Ich akzeptiere den <a href="../../datenschutz.html">Datenschutz</a></label>
+            </div>
+
+            <div class="submit">
+                <input class="btn send" id="submit" type="submit" value="Bewerbung absenden">
+            </div>
+
+        </form>
+    </div>
+</section>
+
+</body>
+</html>

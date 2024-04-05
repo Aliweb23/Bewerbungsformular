@@ -1,0 +1,88 @@
+body {
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+body h1{
+    text-align: center;
+}
+.container {
+    max-width: 600px;
+    background: #eef0c7;
+    padding-top: 5px;
+    margin: 0 auto;
+    padding: 0 20px; /* Abstand zu den Seiten hinzufügen */
+}
+
+hr {
+    border: none;
+    border-top: 1px solid hsl(0, 1%, 40%);
+    margin: 20px 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #f4ecec;
+    border-radius: 5px;
+    box-sizing: border-box; /* sicherstellen, dass padding und border in der Breite enthalten sind */
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fileupload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Media Queries für Responsive Design */
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px; /* Anpassen des Seitenabstands für kleinere Bildschirme */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 14px; /* Verkleinern der Schriftgröße für kleinere Bildschirme */
+    }
+}

@@ -7,16 +7,16 @@ body h1{
     text-align: center;
 }
 .container {
-    max-width: 600px;
-    background: #f8f8f8;
+    max-width: 50%;
+    background: #ebeaea;
     padding-top: 5px;
     margin: 0 auto;
-    padding: 0 20px; /* Abstand zu den Seiten hinzufügen */
+    padding: 0 20px; 
 }
 
 hr {
     border: none;
-    border-top: 1px solid hsl(0, 1%, 40%);
+    border-top: 3px solid hsl(0, 0%, 52%);
     margin: 20px 0;
 }
 
@@ -26,16 +26,16 @@ textarea {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
-    border: 1px solid #f4ecec;
+    border: 1px solid #929798;
     border-radius: 5px;
-    box-sizing: border-box; /* sicherstellen, dass padding und border in der Breite enthalten sind */
+    box-sizing: border-box; 
 }
 
 input[type="checkbox"] {
     margin-right: 5px;
 }
 
-button {
+.btn {
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
@@ -44,18 +44,19 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
     background-color: #0056b3;
 }
 
-.button {
+.btn {
+    margin-top: 5px;
     position: relative;
     overflow: hidden;
     display: inline-block;
     vertical-align: middle;
 }
 
-.fileupload {
+.hochladen {
     position: absolute;
     top: 0;
     right: 0;

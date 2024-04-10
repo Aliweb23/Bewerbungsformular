@@ -1,16 +1,16 @@
 body {
     padding-top: 20px;
     font-family: Arial, sans-serif;
-    background: #a4a4a4;
+    background: #f1f1f1;
 }
 
 body h1{
     text-align: center;
-    color: #fff;
+    color: #151515;
 }
 .container {
     max-width: 50%;
-    background: #ebeaea;
+    background: #a7a8a7e9;
     padding-top: 5px;
     margin: 0 auto;
     padding: 0 20px; 

@@ -1,10 +1,12 @@
 body {
     padding-top: 20px;
     font-family: Arial, sans-serif;
+    background: #a4a4a4;
 }
 
 body h1{
     text-align: center;
+    color: #fff;
 }
 .container {
     max-width: 50%;
@@ -12,7 +14,49 @@ body h1{
     padding-top: 5px;
     margin: 0 auto;
     padding: 0 20px; 
+    /* border-radius: 1%; */
 }
+
+.contain {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contain input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+  }
+  
+  .contain label {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 8px 18px;
+    font-family: sans-serif, Arial;
+    font-weight: bold;
+    font-size: 14px;
+    border: 2px solid #444;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .contain input[type="radio"]:checked + label {
+    background-color: #bfb;
+    border-color: #4c4;
+    
+  }
+  
+  .contain input[type="radio"]:focus + label {
+    border: 2px solid #444;
+  }
+  
+  .contain label:hover {
+    background-color: #dfdfdf;
+  }
+
+
 
 hr {
     border: none;
@@ -66,7 +110,10 @@ input[type="checkbox"] {
     cursor: pointer;
     opacity: 0;
 }
-
+div .submit{
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
 .label {
     font-size: 16px;
     margin-bottom: 5px;

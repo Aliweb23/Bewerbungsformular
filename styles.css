@@ -10,7 +10,7 @@ body h1{
 }
 .container {
     max-width: 50%;
-    background: #a7a8a7e9;
+    background: #606160e9;
     padding-top: 5px;
     margin: 0 auto;
     padding: 0 20px; 
@@ -44,7 +44,7 @@ body h1{
   
   .contain input[type="radio"]:checked + label {
     background-color: #bfb;
-    border-color: #4c4;
+    border-color: rgb(89, 154, 89);
     
   }
   

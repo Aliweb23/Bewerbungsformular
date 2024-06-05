@@ -1,7 +1,7 @@
 body {
     padding-top: 20px;
     font-family: Arial, sans-serif;
-    background: #f1f1f1;
+    background: #d1d3d3c9;
 }
 
 body h1{
@@ -91,7 +91,10 @@ input[type="checkbox"] {
 .btn:hover {
     background-color: #0056b3;
 }
-
+.datenschutz a{
+    color: rgba(194, 67, 36, 0.824);
+    font-weight: bold;
+}
 .btn {
     margin-top: 5px;
     position: relative;
